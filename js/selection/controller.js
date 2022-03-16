@@ -171,7 +171,7 @@ ngApp.controller('myValidatorController', function($scope) {
 			console.log($scope.select.downloadSubServiceType);
 			if (($scope.select.typeResource == "downloadservice") && ($scope.select.downloadServiceType == "WFS") && ($scope.select.downloadSubServiceType == "direct3")) $scope.restservice.testsuiteid = ["EIDed2d3501-d700-4ff9-b9bf-070dece8ddbd", "EID174edf55-699b-446c-968c-1892a4d8d5bd"];
 			if (($scope.select.typeResource == "downloadservice") && ($scope.select.downloadServiceType == "WFS") && ($scope.select.downloadSubServiceType == "direct2")) $scope.restservice.testsuiteid = "EID174edf55-699b-446c-968c-1892a4d8d5bd";
-			if (($scope.select.typeResource == "downloadservice") && ($scope.select.downloadServiceType == "WFS") && ($scope.select.downloadSubServiceType == "direct1") && ($scope.environment == "PROD")) $scope.restservice.testsuiteid = "EID85df0f3f-f55a-3944-a88f-f1cb4763336d";
+			if (($scope.select.typeResource == "downloadservice") && ($scope.select.downloadServiceType == "WFS") && ($scope.select.downloadSubServiceType == "direct1") && ($scope.environment == "PROD")) $scope.restservice.testsuiteid = "EID1104fc9f-a7af-3862-9bd1-9f02921103a2";
 			if (($scope.select.typeResource == "downloadservice") && ($scope.select.downloadServiceType == "WFS") && ($scope.select.downloadSubServiceType == "direct1") && ($scope.environment == "STAGING")) $scope.restservice.testsuiteid = "EID1104fc9f-a7af-3862-9bd1-9f02921103a2";
 			if (($scope.select.typeResource == "downloadservice") && ($scope.select.downloadServiceType == "WFS") && ($scope.select.downloadSubServiceType == "predefined")) $scope.restservice.testsuiteid = "EID174edf55-699b-446c-968c-1892a4d8d5bd";
 			if (($scope.select.typeResource == "downloadservice") && ($scope.select.downloadServiceType == "PDA")) $scope.restservice.testsuiteid = "EID11571c92-3940-4f42-a6cd-5e2b1c6f4d93";
@@ -742,7 +742,6 @@ ngApp.controller('myValidatorController', function($scope) {
 		if (testSuiteId == "EIDeec9d674-d94b-4d8d-b744-1309c6cae1d2") testSuiteDesc = "Conformance Class View Service WMS";
 		if (testSuiteId == "EID550ceacf-b3cb-47a0-b2dd-d3edb18344a9") testSuiteDesc = "Conformance Class View Service WMTS";
 		if (testSuiteId == "EID1104fc9f-a7af-3862-9bd1-9f02921103a2") testSuiteDesc = "WFS 2.0 (OGC 09-025r2/ISO 19142) Conformance Test Suite";
-		if (testSuiteId == "EID85df0f3f-f55a-3944-a88f-f1cb4763336d") testSuiteDesc = "WFS 2.0 (OGC 09-025r2/ISO 19142) Conformance Test Suite";
 		if (testSuiteId == "EID174edf55-699b-446c-968c-1892a4d8d5bd") testSuiteDesc = "Conformance Class Pre-defined WFS";
 		if (testSuiteId == "EIDed2d3501-d700-4ff9-b9bf-070dece8ddbd") testSuiteDesc = "Conformance Class Direct WFS";
 		if (testSuiteId == "EID11571c92-3940-4f42-a6cd-5e2b1c6f4d93") testSuiteDesc = "Conformance Class Pre-defined Atom";
@@ -774,8 +773,7 @@ ngApp.controller('myValidatorController', function($scope) {
 			if (testSuiteId.includes("EIDa593a7ad-42d9-46d0-985d-9dff3e684428")) testSuiteDesc = "Conformance Class 7: INSPIRE Harmonised Spatial Data Services metadata";
 			if (testSuiteId.includes("EIDeec9d674-d94b-4d8d-b744-1309c6cae1d2")) testSuiteDesc = "Conformance Class View Service WMS";
 			if (testSuiteId.includes("EID550ceacf-b3cb-47a0-b2dd-d3edb18344a9")) testSuiteDesc = "Conformance Class View Service WMTS";
-			if (testSuiteId.includes("EID1104fc9f-a7af-3862-9bd1-9f02921103a2")) testSuiteDesc = "WFS 2.0 (OGC 09-025r2/ISO 19142) Conformance Test Suite";
-			if (testSuiteId.includes("EID85df0f3f-f55a-3944-a88f-f1cb4763336d")) testSuiteDesc = "WFS 2.0 (OGC 09-025r2/ISO 19142) Conformance Test Suite";
+			if (testSuiteId.includes("EID1104fc9f-a7af-3862-9bd1-9f02921103a2")) testSuiteDesc = "WFS 2.0 (OGC 09-025r2/ISO 19142) Conformance Test Suite";			
 			if (testSuiteId.includes("EID174edf55-699b-446c-968c-1892a4d8d5bd")) testSuiteDesc = "Conformance Class Pre-defined WFS";
 			if (testSuiteId.includes("EIDed2d3501-d700-4ff9-b9bf-070dece8ddbd")) testSuiteDesc = "Conformance Class Direct WFS";
 			if (testSuiteId.includes("EID11571c92-3940-4f42-a6cd-5e2b1c6f4d93")) testSuiteDesc = "Conformance Class Pre-defined Atom";
